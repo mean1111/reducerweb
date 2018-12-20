@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 function createWarning(funcName) {
-    return()=>console.log(funcName + 'is not defined')
+    console.log(funcName + 'is not defined');
+    return 0;
 }
 
 
